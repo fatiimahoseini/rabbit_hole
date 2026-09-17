@@ -35,11 +35,3 @@ npm run format
 ```
 
 SQLite lives at `apps/api/data/rabbit-hole.sqlite` and is gitignored.
-
-## v1
-
-API v1 is closed: do not add endpoints, auth, or extra fields.
-
-The web UI for that contract is in place: today's topic, Pool drawer, About, skip / finish / next, edit, delete (including multi-select).
-
-Not in v1: login, notes, review, AI, Docker, Postgres, gamification, configurable skip length.
