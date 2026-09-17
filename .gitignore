@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.husky/
+
+# Build
+dist/
+dist-foreign/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Tests & coverage
+/test/
+coverage/
+.nyc_output/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temp
+tmp/
+temp/
+.temp/
+.cache/
+data/
+
+# Local tooling
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+.codebase-memory/
+.codex/
+docs/
+graphify-out/
+.cursor/

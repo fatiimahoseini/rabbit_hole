@@ -1,0 +1,6 @@
+node_modules
+dist
+data
+coverage
+graphify-out
+package-lock.json
