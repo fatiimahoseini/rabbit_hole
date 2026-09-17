@@ -2,6 +2,7 @@
 
 A small app that picks **one** curiosity topic per day. Not a curriculum: a pool, a random surface, Explore / Skip / Finished.
 
+<img width="1846" height="912" alt="image" src="https://github.com/user-attachments/assets/a1b26718-5634-4c5e-8a6a-bf2b75affc89" />
 > Don't build a curriculum. Build a pool of curiosity.
 
 One git repo, two apps, REST only. The web app never talks to the database.
