@@ -2,7 +2,9 @@
 
 A small app that picks **one** curiosity topic per day. Not a curriculum: a pool, a random surface, Explore / Skip / Finished.
 
-> Don't build a curriculum. Build a pool of curiosity.
+<img width="1846" height="912" alt="image" src="https://github.com/user-attachments/assets/a1b26718-5634-4c5e-8a6a-bf2b75affc89" />
+Don't build a curriculum. Build a pool of curiosity.
+
 
 One git repo, two apps, REST only. The web app never talks to the database.
 
@@ -35,11 +37,3 @@ npm run format
 ```
 
 SQLite lives at `apps/api/data/rabbit-hole.sqlite` and is gitignored.
-
-## v1
-
-API v1 is closed: do not add endpoints, auth, or extra fields.
-
-The web UI for that contract is in place: today's topic, Pool drawer, About, skip / finish / next, edit, delete (including multi-select).
-
-Not in v1: login, notes, review, AI, Docker, Postgres, gamification, configurable skip length.
